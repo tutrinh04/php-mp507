@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 23px;
+}
+#wapper{
+    width: 960px;
+    margin: 0px auto;
+}
+#header,#footer{
+    background:#029ef3;
+}
+ul#main-menu{
+    text-align: center;
+}
+ul#main-menu li{
+    display: inline-block;
+}
+ul#main-menu li a{
+  padding: 8px 15px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+#content{
+    min-height: 600px;
+    padding: 20px 0px;
+}
+.add_new{
+    color: red;
+}
+#content a{
+    text-decoration: none;
+}
+#footer{
+    height: 40px;
+}
